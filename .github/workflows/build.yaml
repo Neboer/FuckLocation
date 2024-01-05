@@ -2,7 +2,8 @@ name: Fuck Location CI Build
 
 on:
   push:
-
+  repository_dispatch:
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-20.04
